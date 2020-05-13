@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+
+<h1>Posts</h1>
+
+
+<% @posts.each do |post| %>
+  <div><%= link_to (image_tag post.image.url(:medium)), post_path(post) %></div>
+  <div><%= post.caption %></div>
+<% end %>
