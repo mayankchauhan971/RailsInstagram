@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <header style="background: grey">
-        <%= link_to  'Instagram', '/' , {:style => 'color: white'}%>
-        <%= link_to 'New Post', new_post_path, {:style => 'float: right; color: white'} %>
+    <header class = "navbar">
+        <%= link_to  'Instagram', '/' , class: "navbar-logo"%>
+        <%= link_to 'New Post', new_post_path, class: "navbar-links" %>
     </header>
-
+    
     <%= yield %>
 </body>
 
