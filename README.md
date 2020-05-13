@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# RailsInstagram
+Instagram Clone based on Rails!!
+>>>>>>> 8c1573b2bd94d120b1082886ee2e3f7c2f06e71e
