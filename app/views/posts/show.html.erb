@@ -6,7 +6,9 @@
         <%= @post.caption%>
     </div>
     <div class = "show-post-options">
+    <%if @post.user.id == current_user.id %>
       <span><%= link_to 'Edit', edit_post_path(@post) %></span>
       <span><%= link_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %></span>
+    <%end%>
     </div>
 </div>
