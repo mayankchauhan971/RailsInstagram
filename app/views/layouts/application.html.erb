@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+
+<body>
+    <header class = "navbar">
+        <%= link_to  'Instagram', '/' , class: "navbar-logo"%>
+        <%= link_to 'New Post', new_post_path, class: "navbar-links" %>
+    </header>
+    
+    <%= yield %>
+</body>
+
+</html>
