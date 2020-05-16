@@ -4,11 +4,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.1'
 
 gem 'paperclip', '~> 6.0.0'
+gem 'devise'
+gem 'will_paginate', '~> 3.3'
+gem 'jquery-rails', '~> 4.4'
+gem 'coffee-rails', '~> 4.2'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
-# gem 'bootstrap', '~> 4.4.1'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
